@@ -1,0 +1,97 @@
+//Navbar
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', serif;
+}
+
+.nav {
+  background-color: #ffffff;
+  color: #000000;
+  list-style: none;
+  text-align: right;
+  padding: 20px 0 0 0;
+}
+
+.nav > li {
+  display: inline-block;
+  padding: 0 25px 0 25px;
+  font-size: 15px;
+}
+
+.nav > li a {
+ text-decoration: none;
+ color: #000000;
+}
+
+.nav > li > a:hover {
+  color: #c1c1c1;
+}
+
+.logo {
+  color: #000000;
+  float: left;
+  padding-left: 25px;
+  font-size: 20px;
+  font-weight: bold;
+
+}
+
+.logo > a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.banner {
+  width: 100%;
+  display: block;
+}
+
+.banner > .banner-image {
+  width: 100%;
+  display: block;
+}
+
+body {
+  background-color: white;
+  margin: 0;
+  font-family: 'Lora', Georgia, serif;
+  line-height: 1.4em;
+}
+
+header {
+  margin: 20px 0;
+  text-align: center;
+  font-family: 'Arvo', sans-serif;
+}
+header a.back {
+  text-align: left;
+  display: block;
+  border-bottom: none;
+  padding-left: 15px;
+  padding-top: 1px;
+  margin-bottom: 30px;
+
+  color: #000000;
+  font-size: 14px;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 60px;
+  line-height: 60px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+h1 .title-deepweb {
+  font-style: italic;
+  font-size: 24px;
+  vertical-align: middle;
+  margin: 0 6px;
+}
+
+p .paragraph {
+  vertical-align: middle;
+}
